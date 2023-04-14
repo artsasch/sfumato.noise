@@ -9,9 +9,11 @@
 </head>
 
 <body>
-    <video autoplay loop muted id="background">
-        <source src="assets/light.mp4" type="video/mp4">
-    </video>
+    <div>
+        <video autoplay loop muted id="background" onloadstart="this.playbackRate = 0.1">
+            <source src="assets/light.mp4" type="video/mp4">
+        </video>
+    </div>
 
     <header class="header">
         <a id="header-text" href="https://www.instagram.com/sfumato.noise" target="_blank">link to my instagram</a>
@@ -20,6 +22,44 @@
     <main class="main">
         <p id="main-text" >sfumato.noise colection</p>
     </main>
+
+    <div id="collection">
+        <div id="collection-header">my collection</div>
+
+        <div id="collection-cards">
+
+            <div class="collection-card">
+                <video autoplay loop muted class="collection-card-image">
+                    <source src="assets/1.mp4" type="video/mp4">
+                </video>
+                <div class="collection-card-title">
+                    <p class="collection-card-title-name">Black x White</p>
+                    <p class="collection-card-title-price">35$</p>
+                </div>
+            </div>
+
+            <div class="collection-card">
+                <video autoplay loop muted class="collection-card-image">
+                    <source src="assets/2.mp4" type="video/mp4">
+                </video>
+                <div class="collection-card-title">
+                    <p class="collection-card-title-name">Black x White</p>
+                    <p class="collection-card-title-price">35$</p>
+                </div>
+            </div>
+
+            <div class="collection-card">
+                <video autoplay loop muted class="collection-card-image">
+                    <source src="assets/3.mp4" type="video/mp4">
+                </video>
+                <div class="collection-card-title">
+                    <p class="collection-card-title-name">Black x White</p>
+                    <p class="collection-card-title-price">35$</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </body>
 
 </html>

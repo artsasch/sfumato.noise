@@ -1,11 +1,16 @@
 #background {
+/*    position: absolute;*/
+/*    top: 150px;*/
+/*    left: 250px;*/
+/*    height: 50%;*/
+    z-index: -1;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1;
     object-fit: cover;
+    filter: blur(100px);
 }
 
 .header {
@@ -26,7 +31,7 @@
     line-height: 2em;
 
     background-image: linear-gradient(#000000, #000000);
-    background-size: 0% 0.1em;
+    background-size: 0 0.1em;
     background-position-y: 90%;
     background-position-x: 100%;
     background-repeat: no-repeat;
@@ -37,12 +42,12 @@
 #header-text:focus,
 #header-text:active {
     background-size: 100% 0.1em;
-    background-position-x: 0%;
+    background-position-x: 0;
 }
 
 .main {
     position: relative;
-    height: 85vh;
+    height: 90vh;
 }
 
 #main-text {
@@ -56,4 +61,48 @@
     font-style: normal;
     text-decoration: none;
     line-height: 2em;
+}
+
+#collection {
+    padding-top: 100px;
+}
+
+#collection-header {
+    bottom: 0;
+    padding-left: 150px;
+    font-family: Andale Mono, monospace, sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    color: rgba(0, 0 ,0 , 1);
+    font-style: normal;
+    text-decoration: none;
+    line-height: 2em;
+}
+
+#collection-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.collection-card-image {
+    width: 45vh;
+    height: 45vh;
+    border-radius: 7px;
+}
+
+.collection-card-title {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-family: Andale Mono, monospace, sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    color: rgba(0, 0 ,0 , 1);
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1em;
 }
