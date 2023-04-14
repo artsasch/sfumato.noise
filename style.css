@@ -1,3 +1,7 @@
+body {
+    font-family: Montserrat, sans-serif;
+}
+
 #background {
 /*    position: absolute;*/
 /*    top: 150px;*/
@@ -22,7 +26,7 @@
 #header-text {
     margin-right: 30px;
     margin-top: 20px;
-    font-family: Andale Mono, monospace, sans-serif;
+/*    font-family: Andale Mono, monospace, sans-serif;*/
     font-size: 27px;
     font-weight: 100;
     color: rgba(0, 0 ,0 , 1);
@@ -54,7 +58,7 @@
     position: absolute;
     bottom: 0;
     padding-left: 150px;
-    font-family: Andale Mono, monospace, sans-serif;
+/*    font-family: Andale Mono, monospace, sans-serif;*/
     font-size: 70px;
     font-weight: 100;
     color: rgba(0, 0 ,0 , 1);
@@ -70,7 +74,7 @@
 #collection-header {
     bottom: 0;
     padding-left: 150px;
-    font-family: Andale Mono, monospace, sans-serif;
+/*    font-family: Andale Mono, monospace, sans-serif;*/
     font-size: 40px;
     font-weight: 100;
     color: rgba(0, 0 ,0 , 1);
@@ -98,7 +102,7 @@
     display: flex;
     justify-content: center;
     gap: 50px;
-    font-family: Andale Mono, monospace, sans-serif;
+/*    font-family: Andale Mono, monospace, sans-serif;*/
     font-size: 25px;
     font-weight: 100;
     color: rgba(0, 0 ,0 , 1);
@@ -106,3 +110,4 @@
     text-decoration: none;
     line-height: 1em;
 }
+
